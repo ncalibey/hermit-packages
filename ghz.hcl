@@ -3,7 +3,7 @@ binaries = ["ghz"]
 source = "https://github.com/bojand/ghz/releases/download/v${version}/ghz-${os}-x86_64.tar.gz"
 
 version "0.105.0" "0.106.0" "0.106.1" "0.107.0-pre.0" "0.107.0-pre.3" "0.108.0"
-        "0.109.0" "0.110.0" "0.111.0" "0.112.0-pre.1" {
+        "0.109.0" "0.110.0" "0.111.0" "0.112.0-pre.1" "0.114.0" {
   auto-version {
     github-release = "bojand/ghz"
   }
@@ -30,4 +30,6 @@ sha256sums = {
   "https://github.com/bojand/ghz/releases/download/v0.111.0/ghz-darwin-x86_64.tar.gz": "cb45e0fe431bd7aa050ba90b6f658ffef1919714cb0e46dd34a4d885a1183095",
   "https://github.com/bojand/ghz/releases/download/v0.112.0-pre.1/ghz-linux-x86_64.tar.gz": "5634d07fbd42284ca1fb9c9944ca26b7bcfa92dfc688b62da6861e101152c5f3",
   "https://github.com/bojand/ghz/releases/download/v0.112.0-pre.1/ghz-darwin-x86_64.tar.gz": "85d134413075a572105e4962774d5d1d04a2c4970af7bc4932088abfe73824f9",
+  "https://github.com/bojand/ghz/releases/download/v0.114.0/ghz-linux-x86_64.tar.gz": "89bc412fd5647102da3d97edc638b0f35a2295c161248331f7b168d9fd98d9d1",
+  "https://github.com/bojand/ghz/releases/download/v0.114.0/ghz-darwin-x86_64.tar.gz": "b497ec2f496bf50a8c7e053dca9541e46c679e543e5e09bf3b254683c557b47f",
 }
