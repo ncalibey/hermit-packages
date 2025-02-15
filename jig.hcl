@@ -5,7 +5,7 @@ test = "jig --version"
 
 version "0.0.11" "0.0.12" "0.0.16" "0.0.17" "0.0.18" "0.0.20" "0.0.21" "0.0.22"
         "0.0.23" "0.0.25" "0.0.26" "0.0.27" "0.0.28" "0.0.29" "0.0.30" "0.0.31" "0.0.32"
-        "0.0.33" "0.0.34" "0.0.35" "0.0.36" "0.0.37" {
+        "0.0.33" "0.0.34" "0.0.35" "0.0.36" "0.0.37" "0.0.41" {
   auto-version {
     github-release = "foxygoat/jig"
   }
@@ -78,4 +78,7 @@ sha256sums = {
   "https://github.com/foxygoat/jig/releases/download/v0.0.37/jig_0.0.37_linux_amd64.tar.gz": "165217892ca5444facf693ce5690c9d721c295b9a79aad1a02257df7a49a06aa",
   "https://github.com/foxygoat/jig/releases/download/v0.0.37/jig_0.0.37_darwin_arm64.tar.gz": "059d35a976039ccce65efdfc4d86a81ded126154da38c92ef50843c3b0f35345",
   "https://github.com/foxygoat/jig/releases/download/v0.0.37/jig_0.0.37_darwin_amd64.tar.gz": "5f9649040407af3f491f2087d8e615e0b0f3cc2363df172591da1c083468b9a7",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.41/jig_0.0.41_linux_amd64.tar.gz": "8f7af21b1572a32ec867529e179822243372d9e252ad699ba53d8766aef134d3",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.41/jig_0.0.41_darwin_arm64.tar.gz": "5707a6a547fd941be72a5251f9f968e4d378ab2ec901a7595310bca15252e924",
+  "https://github.com/foxygoat/jig/releases/download/v0.0.41/jig_0.0.41_darwin_amd64.tar.gz": "5f0914390b0a48414ad7df6af7828e0185007ce48b7ff7b0379ee03bcc7ec91c",
 }
