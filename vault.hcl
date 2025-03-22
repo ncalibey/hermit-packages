@@ -6,7 +6,7 @@ source = "https://releases.hashicorp.com/vault/${version}/vault_${version}_${os}
 
 version "1.15.1" "1.15.2" "1.15.3" "1.15.4" "1.15.5" "1.15.6" "1.16.0" "1.16.1"
         "1.16.2" "1.16.3" "1.17.0" "1.17.1" "1.17.2" "1.17.3" "1.17.4" "1.17.5" "1.17.6"
-        "1.18.0" "1.18.1" "1.18.2" "1.18.3" "1.18.4" {
+        "1.18.0" "1.18.1" "1.18.2" "1.18.3" "1.18.4" "1.19.0" {
   auto-version {
     github-release = "hashicorp/vault"
   }
@@ -79,4 +79,30 @@ sha256sums = {
   "https://releases.hashicorp.com/vault/1.18.4/vault_1.18.4_linux_amd64.zip": "bdde42660c14700e4d5275760d50c59ed637803cd9c7c12926a2e2e788097a45",
   "https://releases.hashicorp.com/vault/1.18.4/vault_1.18.4_darwin_amd64.zip": "ead7d631454b0c8e895ddce770558d6a40e2b6423616150a0ac53cf9c4bf1ef8",
   "https://releases.hashicorp.com/vault/1.18.4/vault_1.18.4_darwin_arm64.zip": "e0098a3dda3712b8f1ba14930fe9fa4edc8c68a8c01b46565797ea5198b60b6e",
+  "https://releases.hashicorp.com/vault/1.15.4/vault_1.15.4_linux_arm64.zip": "79aee168078eb8c0dbb31c283e1136a7575f59fe36fccbb1f1ef6a16e0b67fdb",
+  "https://releases.hashicorp.com/vault/1.15.5/vault_1.15.5_linux_arm64.zip": "bfee22297a9812d703bb2b788b9fdc124b58a0ed07e50ffc74d29e526fb911bb",
+  "https://releases.hashicorp.com/vault/1.16.1/vault_1.16.1_linux_arm64.zip": "3fc4746c8dd74afdaa9201ab1b869c8764efae00e126879d36efc6c68af18daf",
+  "https://releases.hashicorp.com/vault/1.16.2/vault_1.16.2_linux_arm64.zip": "d5bd42227d295b1dcc4a5889c37e6a8ca945ece4795819718eaf54db87aa6d4f",
+  "https://releases.hashicorp.com/vault/1.16.3/vault_1.16.3_linux_arm64.zip": "d03a4b998d61c1434bc46e332b8b85bbad4d12bbfdbbb11ecff6561b0e2ff049",
+  "https://releases.hashicorp.com/vault/1.17.0/vault_1.17.0_linux_arm64.zip": "b2fbbe13e7737610e237ca86a4b16a933b4bf8da287f09b390537beec1fd416a",
+  "https://releases.hashicorp.com/vault/1.17.1/vault_1.17.1_linux_arm64.zip": "6f6449cb8d353af99c8506f92b9b53111def3daba32c72f2483a8ae98faff2f2",
+  "https://releases.hashicorp.com/vault/1.17.2/vault_1.17.2_linux_arm64.zip": "1cdfd33e218ef145dbc3d71ac4164b89e453ff81b780ed178274bc1ba070e6e9",
+  "https://releases.hashicorp.com/vault/1.17.5/vault_1.17.5_linux_arm64.zip": "abafcc3cac1570abbe7bf9a2072c18bc48c9ef7e3470766562f622e6b1e0aef1",
+  "https://releases.hashicorp.com/vault/1.17.6/vault_1.17.6_linux_arm64.zip": "05a48513fd609e26c25d6b6b74005bce3430984fe4161696236cc2226e664f3a",
+  "https://releases.hashicorp.com/vault/1.19.0/vault_1.19.0_linux_arm64.zip": "252bf12d0ce1824860d6e06bd21b74b548eedd6a35225f12bf38482a4c78bef6",
+  "https://releases.hashicorp.com/vault/1.15.2/vault_1.15.2_linux_arm64.zip": "02438725b1229ad32788e05daca8d4537d4dd3d0faf4d7cb891c12e1fb40c08d",
+  "https://releases.hashicorp.com/vault/1.15.3/vault_1.15.3_linux_arm64.zip": "40fe704903be4a93fd27b397d6645360308680b4b4b201b81ef342fbe7610fca",
+  "https://releases.hashicorp.com/vault/1.15.6/vault_1.15.6_linux_arm64.zip": "755b5bdff9db6ffa7beb6dd0d7dbe4d367820630f5a5c88a885444fbbce32a73",
+  "https://releases.hashicorp.com/vault/1.17.3/vault_1.17.3_linux_arm64.zip": "6c7dc39df0058b1fa9e65050227cdb12dc7913153ecd56956911fb973c353590",
+  "https://releases.hashicorp.com/vault/1.17.4/vault_1.17.4_linux_arm64.zip": "d31f38a1daf33f67ec1c4a2d6bafe0793f1ede939ca0552dfc70f740cc57abb3",
+  "https://releases.hashicorp.com/vault/1.18.1/vault_1.18.1_linux_arm64.zip": "c62ff127b9b1b6e984c0c3c88ee68d9348f8f3d5e9bbc1a639c09607827ebb0e",
+  "https://releases.hashicorp.com/vault/1.18.2/vault_1.18.2_linux_arm64.zip": "b3c38a2f85777d3c56efd16d985019c0b758f6003e9b2ad670ab1ef0d0580285",
+  "https://releases.hashicorp.com/vault/1.18.3/vault_1.18.3_linux_arm64.zip": "816df690b9240cf50828331012081b4221da4eecf30e1ce4d85053113138aab7",
+  "https://releases.hashicorp.com/vault/1.19.0/vault_1.19.0_darwin_amd64.zip": "e805a0ad63605358356226609be6673e0de87486b4f643cb975c2a3c00ad2700",
+  "https://releases.hashicorp.com/vault/1.19.0/vault_1.19.0_darwin_arm64.zip": "b8c2b2a2cee3214edfa2f228a9c2ff4228c60053a9a773bf638e04bf9b61911e",
+  "https://releases.hashicorp.com/vault/1.19.0/vault_1.19.0_linux_amd64.zip": "9df904271319452bbb37825cfe50726383037550cc04b7c2d0ab09e2f08f82a1",
+  "https://releases.hashicorp.com/vault/1.15.1/vault_1.15.1_linux_arm64.zip": "905787bfa4e13b12447f35d9efc88b07388f152347658890261de682db4237d1",
+  "https://releases.hashicorp.com/vault/1.16.0/vault_1.16.0_linux_arm64.zip": "0566a426db86c398d32192b1953fb2efb02ff2879253c66a5d162ad8d9290f2e",
+  "https://releases.hashicorp.com/vault/1.18.0/vault_1.18.0_linux_arm64.zip": "7bcb6eec3f7a3dd398687f1cf15897ec20b7eae6335f0c85453d591b3c05fb6e",
+  "https://releases.hashicorp.com/vault/1.18.4/vault_1.18.4_linux_arm64.zip": "19ab068acb3b25c1d049405401b35b4083877190714bfbddeaadcbd4f26d23d2",
 }
