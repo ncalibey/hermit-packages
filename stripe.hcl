@@ -15,7 +15,8 @@ platform "linux" "amd64" {
 }
 
 version "1.19.4" "1.19.5" "1.20.0" "1.21.0" "1.21.2" "1.21.3" "1.21.5" "1.21.7"
-        "1.21.8" "1.21.9" "1.21.10" "1.21.11" "1.22.0" "1.23.3" "1.23.8" "1.23.10" "1.25.0" {
+        "1.21.8" "1.21.9" "1.21.10" "1.21.11" "1.22.0" "1.23.3" "1.23.8" "1.23.10" "1.25.0"
+        "1.25.1" {
   auto-version {
     github-release = "stripe/stripe-cli"
   }
@@ -57,4 +58,23 @@ sha256sums = {
   "https://github.com/stripe/stripe-cli/releases/download/v1.23.10/stripe_1.23.10_linux_x86_64.tar.gz": "38ad581afeb997f010281b22f11fa107c552234cc31de799806f1372b53e3418",
   "https://github.com/stripe/stripe-cli/releases/download/v1.25.0/stripe_1.25.0_linux_x86_64.tar.gz": "246383e28cf73b2a82850cec50437fda5da21afef6a3efd7b1cafc29bb89c6d7",
   "https://github.com/stripe/stripe-cli/releases/download/v1.25.0/stripe_1.25.0_mac-os_arm64.tar.gz": "d8b1b9c7e0a7c29d302386b3c6aa682fd5a9e33c4689eea0f4c2106a7588ba88",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.19.5/stripe_1.19.5_linux_arm64.tar.gz": "e0fbec9ab0e16ea5169896313ce11ac24c968371889432891862ecb4953c8932",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.20.0/stripe_1.20.0_linux_arm64.tar.gz": "37c83cbc348e9a8ca7b82578e5e6bbd20b7771c18bdd276bb4df640969266d66",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.21.0/stripe_1.21.0_linux_arm64.tar.gz": "81b8fb2aa4f49b5f4d75d7d65f66a0c6863f0d44cbdb209b0385b088111e0100",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.21.2/stripe_1.21.2_linux_arm64.tar.gz": "cd79c292482953925425011b402bd5f2630723f29ccc458cbfdf11fb1a93477d",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.21.3/stripe_1.21.3_linux_arm64.tar.gz": "fbb2aad9e94232ff0dafecfdb969a9294639e26a32d1efd0c966fd2284c1faa3",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.21.9/stripe_1.21.9_linux_arm64.tar.gz": "af91b8bd285931af6bbaed6535697fd05bb06a708aca76bb1b3a8bd487dc79eb",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.21.11/stripe_1.21.11_linux_arm64.tar.gz": "ff16c777fe21327c3edae579a99bfd4d0480b9e934993f9166ded7a2b43292c6",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.23.10/stripe_1.23.10_linux_arm64.tar.gz": "6348a5401e09b918bd737c093529b9156eff79476cd43cf94a6fe525e0a8e530",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.25.0/stripe_1.25.0_linux_arm64.tar.gz": "2d55f2b76c3bed4b5b9c419cc85ad4f526afae9d563bee3c94ce327ca9be0662",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.25.1/stripe_1.25.1_linux_x86_64.tar.gz": "1c57be9779a4287268257b8613737981cc19d50020790dbd5a6807ee994b8d3b",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.25.1/stripe_1.25.1_mac-os_arm64.tar.gz": "15d7d8a3edcda6323180678dfa455c2c02585099f44b58585af5e5f5b114aa90",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.21.5/stripe_1.21.5_linux_arm64.tar.gz": "e5d2d843432bc87b80f017ee17c19d50b512dece11983abae7c2717ed06b289f",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.21.7/stripe_1.21.7_linux_arm64.tar.gz": "a1b73543434d41519199ea5eeda04749010e6f96382e98a61934312ab2ade5ed",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.21.8/stripe_1.21.8_linux_arm64.tar.gz": "b6f3e152a39948ad10a1d7aeb1118aa618c132a70c2eb28e5afca8a524ce88f4",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.21.10/stripe_1.21.10_linux_arm64.tar.gz": "6c413da67722bac08bcb6c39569b28b8fd22d24a64bef4fc53f9a2a6eef5045b",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.22.0/stripe_1.22.0_linux_arm64.tar.gz": "ee59931a5a766c5ee1916ee23b301917ecfc29069891f21e2fc0854597c8feaf",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.23.3/stripe_1.23.3_linux_arm64.tar.gz": "0e5624e24cbebdf52389edd8cd8ee32e6d3cc33231b1ca38c7c9c3ae5bc56430",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.23.8/stripe_1.23.8_linux_arm64.tar.gz": "b7bf6d841ccd9888b1e9dedb423c1a38a999fe1db3dbbb006a2daf0a35d2cec0",
+  "https://github.com/stripe/stripe-cli/releases/download/v1.25.1/stripe_1.25.1_linux_arm64.tar.gz": "950580946837f7dd698ed744cc6400b5c96c3317b0829a606ef0efa34ec6a799",
 }
