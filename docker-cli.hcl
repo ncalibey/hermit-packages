@@ -14,7 +14,7 @@ platform "linux" {
 version "20.10.24" "23.0.6" "24.0.9" "25.0.5" "26.0.0" "26.0.1" "26.0.2" "26.1.0"
         "26.1.1" "26.1.2" "26.1.3" "26.1.4" "27.0.1" "27.0.2" "27.0.3" "27.1.0" "27.1.1"
         "27.1.2" "27.2.0" "27.2.1" "27.3.0" "27.3.1" "27.4.0" "27.4.1" "27.5.0" "27.5.1"
-        "28.0.0" "28.0.1" "28.0.2" {
+        "28.0.0" "28.0.1" "28.0.2" "28.0.4" {
   auto-version {
     version-pattern = "docker-([^\\s]+).tgz"
 
@@ -146,4 +146,8 @@ sha256sums = {
   "https://download.docker.com/linux/static/stable/aarch64/docker-27.4.0.tgz": "30885dd4e0dec8451d7e089242da77a5612822dcb5151c44d3d7193cb1e4d378",
   "https://download.docker.com/linux/static/stable/aarch64/docker-28.0.1.tgz": "914f0aba14ef51dd76ef3f1f71a24e6bcf12d55bbb033289a0404988a2c3ab28",
   "https://download.docker.com/mac/static/stable/x86_64/docker-28.0.2.tgz": "2bb2594348cdc44052bef3859c2bec9b7c1363f51cba7f6b41db079931cd8dcb",
+  "https://download.docker.com/linux/static/stable/aarch64/docker-28.0.4.tgz": "d3291093e8ed576ed9e237b24dc4556a9ed21ff25d4c26578df612cb6fe0480f",
+  "https://download.docker.com/mac/static/stable/x86_64/docker-28.0.4.tgz": "ec575e4c5e58aec5fade31cf2c0ce618783db87c28516d175114f0ac9cf459c1",
+  "https://download.docker.com/mac/static/stable/aarch64/docker-28.0.4.tgz": "ce8cb345dbab05859b675c1cdf34e5b98169796f1da134de0ea62fcd424a5101",
+  "https://download.docker.com/linux/static/stable/x86_64/docker-28.0.4.tgz": "6b130fa5fb13516620d5ece0b63f63a495cede428bb2f9e24449022e9d72e0cb",
 }
