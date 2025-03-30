@@ -3,7 +3,7 @@ binaries = ["civo"]
 source = "https://github.com/civo/cli/releases/download/v${version}/civo-${version}-${os}-${arch}.tar.gz"
 test = "civo --version"
 
-version "1.1.92" "1.1.93" "1.1.95" "1.1.97" {
+version "1.1.92" "1.1.93" "1.1.95" "1.1.97" "1.1.99" {
   auto-version {
     github-release = "civo/cli"
   }
@@ -22,4 +22,12 @@ sha256sums = {
   "https://github.com/civo/cli/releases/download/v1.1.97/civo-1.1.97-darwin-arm64.tar.gz": "06fb0ec245eb7d4f3911704ca0fec4ef5d7c11392bb6dab337cf0684445a1152",
   "https://github.com/civo/cli/releases/download/v1.1.97/civo-1.1.97-linux-amd64.tar.gz": "d8ac54ee6c1b8edadf17c2a10ffb8020ca605220fea488ec1735694a3715ece4",
   "https://github.com/civo/cli/releases/download/v1.1.97/civo-1.1.97-darwin-amd64.tar.gz": "6577d4302095b8ffd0060d8c54e0dcad13b08986b775ab229038e3dc8d80d465",
+  "https://github.com/civo/cli/releases/download/v1.1.92/civo-1.1.92-linux-arm64.tar.gz": "88dce1d79a10f48b8254eef3c42ddcd1afe7370194994af7dbd9db81a48de2cd",
+  "https://github.com/civo/cli/releases/download/v1.1.93/civo-1.1.93-linux-arm64.tar.gz": "3e4e219997e4ffbc2f3ca568a6a8e86bded7a109e7c7f93680448631c420269f",
+  "https://github.com/civo/cli/releases/download/v1.1.95/civo-1.1.95-linux-arm64.tar.gz": "f3bb001b7addc4368f3cdaba91b12a15e5c0ad776ab6c237b7e83813c150b652",
+  "https://github.com/civo/cli/releases/download/v1.1.97/civo-1.1.97-linux-arm64.tar.gz": "57bb8802966a50b0cab70a41f06ddd34f065ae9ae1fd948aad4f3e161228c164",
+  "https://github.com/civo/cli/releases/download/v1.1.99/civo-1.1.99-linux-amd64.tar.gz": "a2b6e1825a71e10e14a7a7e943d07778a0db4363a4ef83e423ba445d3aea607d",
+  "https://github.com/civo/cli/releases/download/v1.1.99/civo-1.1.99-darwin-arm64.tar.gz": "c203bc9fd1f9e44fd890fa62b6dc2986d0ed0d3eef40f3014bc5ca56f1720b74",
+  "https://github.com/civo/cli/releases/download/v1.1.99/civo-1.1.99-linux-arm64.tar.gz": "fdb871c3622886dff5605485243e098343df02257b2b7fd79bfe2b138c19dac7",
+  "https://github.com/civo/cli/releases/download/v1.1.99/civo-1.1.99-darwin-amd64.tar.gz": "f14e3be43b2935457cb9852e49e223e594d52ec8c885b587132ff3db74108cb8",
 }
