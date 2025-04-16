@@ -12,7 +12,7 @@ platform "linux" {
 
 version "0.32.3" "0.32.4" "0.33.0" "0.34.0" "0.34.1" "1.0.0" "1.1.0" "1.2.0" "1.2.1"
         "1.3.0" "1.3.1" "1.3.2" "1.4.0" "1.4.1" "1.5.0" "1.5.1" "1.6.0" "1.6.1" "1.6.2" "1.6.3"
-        "1.7.0" "1.8.1" "1.9.1" {
+        "1.7.0" "1.8.1" "1.9.1" "1.10.0" {
   auto-version {
     github-release = "gleam-lang/gleam"
   }
@@ -111,4 +111,8 @@ sha256sums = {
   "https://github.com/gleam-lang/gleam/releases/download/v1.3.2/gleam-v1.3.2-aarch64-unknown-linux-musl.tar.gz": "60302574f9416d97602a1f9b203c0e2d7e7ae077fd5b34978cc6aecd07b00768",
   "https://github.com/gleam-lang/gleam/releases/download/v1.6.2/gleam-v1.6.2-aarch64-unknown-linux-musl.tar.gz": "f14520c29ed0d5bf43d16a133ec658017b35db7c1261cc71407ee3ab3256faa7",
   "https://github.com/gleam-lang/gleam/releases/download/v1.8.1/gleam-v1.8.1-aarch64-unknown-linux-musl.tar.gz": "54beb327c7327bb60cc47754398720190af2a66cbb0be1ff7421adc02b50831d",
+  "https://github.com/gleam-lang/gleam/releases/download/v1.10.0/gleam-v1.10.0-aarch64-apple-darwin.tar.gz": "90d8717505f14b925879432e177708550a5dd29c9a620e085f21f0ad753cc19a",
+  "https://github.com/gleam-lang/gleam/releases/download/v1.10.0/gleam-v1.10.0-x86_64-unknown-linux-musl.tar.gz": "6ea95309e39e3abf56fe9a361dd079d502b5a944f8612d909d7f56c2fdc10a71",
+  "https://github.com/gleam-lang/gleam/releases/download/v1.10.0/gleam-v1.10.0-aarch64-unknown-linux-musl.tar.gz": "15b528574f31f021bff7232c2fb851c686c369c67e96aedac04636b04094ac94",
+  "https://github.com/gleam-lang/gleam/releases/download/v1.10.0/gleam-v1.10.0-x86_64-apple-darwin.tar.gz": "e31bbb2820ddfe2e7e37829d7c218ab357e0f6efb4b43f2c0ad5c277fd0ef787",
 }
