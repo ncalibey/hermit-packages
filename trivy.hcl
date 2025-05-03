@@ -29,7 +29,7 @@ platform "linux" {
 
 version "0.52.1" "0.52.2" "0.53.0" "0.54.1" "0.55.0" "0.55.1" "0.55.2" "0.56.1"
         "0.56.2" "0.57.0" "0.57.1" "0.58.0" "0.58.1" "0.58.2" "0.59.0" "0.59.1" "0.60.0"
-        "0.61.0" {
+        "0.61.0" "0.62.0" {
   auto-version {
     github-release = "aquasecurity/trivy"
   }
@@ -108,4 +108,8 @@ sha256sums = {
   "https://github.com/aquasecurity/trivy/releases/download/v0.61.0/trivy_0.61.0_Linux-ARM64.tar.gz": "e3ff876fd6fa95919de02c38258acdb26b8f71be1b89c5cb7831f6ec29719ca5",
   "https://github.com/aquasecurity/trivy/releases/download/v0.61.0/trivy_0.61.0_macOS-64bit.tar.gz": "7454cd0d31dec55498baa2fbec9c4034c23ab52df45bb256c29297f2099129f8",
   "https://github.com/aquasecurity/trivy/releases/download/v0.61.0/trivy_0.61.0_macOS-ARM64.tar.gz": "9ad04f68b7823109b93d3c6b4e069d932348bf2847e4ccd197787f87f346138e",
+  "https://github.com/aquasecurity/trivy/releases/download/v0.62.0/trivy_0.62.0_macOS-64bit.tar.gz": "8f6d54c7de5c7247bb92b51d29d2542be8006111515ceaf50fe8185adb59ad89",
+  "https://github.com/aquasecurity/trivy/releases/download/v0.62.0/trivy_0.62.0_macOS-ARM64.tar.gz": "727a8865c2caf6841a1f4668fd7702f442ae088fd08e3c3719e4f731c1f11333",
+  "https://github.com/aquasecurity/trivy/releases/download/v0.62.0/trivy_0.62.0_Linux-ARM64.tar.gz": "82c8acca00390bf5e014b26abb03e24ba754824c4f87ead5564cd56375df07c1",
+  "https://github.com/aquasecurity/trivy/releases/download/v0.62.0/trivy_0.62.0_Linux-64bit.tar.gz": "1be4420999ffde59b9a6900f2c2481a2f4e50fd2e0ac738ad028944563ee6c60",
 }
