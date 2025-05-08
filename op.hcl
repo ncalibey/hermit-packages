@@ -27,7 +27,8 @@ linux {
   source = "https://cache.agilebits.com/dist/1P/op2/pkg/v${version}/op_linux_${arch}_v${version}.zip"
 }
 
-version "2.18.0" "2.19.0" "2.26.1" "2.27.0" "2.28.0" "2.28.0" "2.29.0" "2.30.3" {
+version "2.18.0" "2.19.0" "2.26.1" "2.27.0" "2.28.0" "2.28.0" "2.29.0" "2.30.3"
+        "2.31.0" {
   auto-version {
     html {
       url = "https://app-updates.agilebits.com/product_history/CLI2"
@@ -51,4 +52,14 @@ sha256sums = {
   "https://cache.agilebits.com/dist/1P/op2/pkg/v2.19.0/op_linux_amd64_v2.19.0.zip": "1d5d084f58a7308d36dd1d1717b32629394e806b72c21ddee9573f9e02fbd5d3",
   "https://cache.agilebits.com/dist/1P/op2/pkg/v2.29.0/op_linux_amd64_v2.29.0.zip": "5710c97b87d971805560c1c717aad1a081d815ff696918b16e52211039311dc4",
   "https://cache.agilebits.com/dist/1P/op2/pkg/v2.30.3/op_apple_universal_v2.30.3.pkg": "4559e0ee1b997d1451f7d4cb2b09a6ba7eb0a1288884ce589da11f5a074f26be",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.18.0/op_linux_arm64_v2.18.0.zip": "b93a8e0dc42c0979bb13047ac4412bd73092be57bb84ad223eeca295151159fa",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.19.0/op_linux_arm64_v2.19.0.zip": "d86ecf46453e7d4d3aeda722d55ef631b03ad57d6cd9e4df78e3bf0a5ee564d1",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.26.1/op_linux_arm64_v2.26.1.zip": "a767df10606c9fa42dec332a57658ec444212b82dfd9a0bd95ae00d95501acac",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.27.0/op_linux_arm64_v2.27.0.zip": "3ee60ec19020fb2bb43c3a73a2aa1988d85dd651eedb195b72d555f329737502",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.28.0/op_linux_arm64_v2.28.0.zip": "31ada24e9114632dc6b726d10ebb12a2adf8b67e87d61d4c74094f550d5e3fb3",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.29.0/op_linux_arm64_v2.29.0.zip": "ff6e14941c996f2353a2fa05cd483e24ef2ebe24c62fe47460f8ab550ae7f7d1",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.30.3/op_linux_arm64_v2.30.3.zip": "39bd361b2cd4819ea757583624eeda33f6062ba5ccfc2b90ad0764aed94cd1c4",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.31.0/op_apple_universal_v2.31.0.pkg": "3da84f590e07a5a3af102d7375af17d417edfbc97fd2a19648950471fb969718",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.31.0/op_linux_amd64_v2.31.0.zip": "796dbfc3c00f1312688fd4de2f4002ffd45fb2393d5723755bccb02c52242730",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.31.0/op_linux_arm64_v2.31.0.zip": "869d2686a4d3ef3f87c97d0e324c1b80c39ca65879b89e201b97b4b6bf4a9c55",
 }
