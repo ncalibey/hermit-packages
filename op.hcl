@@ -28,7 +28,7 @@ linux {
 }
 
 version "2.18.0" "2.19.0" "2.26.1" "2.27.0" "2.28.0" "2.28.0" "2.29.0" "2.30.3"
-        "2.31.0" {
+        "2.31.0" "2.31.1" {
   auto-version {
     html {
       url = "https://app-updates.agilebits.com/product_history/CLI2"
@@ -62,4 +62,7 @@ sha256sums = {
   "https://cache.agilebits.com/dist/1P/op2/pkg/v2.31.0/op_apple_universal_v2.31.0.pkg": "3da84f590e07a5a3af102d7375af17d417edfbc97fd2a19648950471fb969718",
   "https://cache.agilebits.com/dist/1P/op2/pkg/v2.31.0/op_linux_amd64_v2.31.0.zip": "796dbfc3c00f1312688fd4de2f4002ffd45fb2393d5723755bccb02c52242730",
   "https://cache.agilebits.com/dist/1P/op2/pkg/v2.31.0/op_linux_arm64_v2.31.0.zip": "869d2686a4d3ef3f87c97d0e324c1b80c39ca65879b89e201b97b4b6bf4a9c55",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.31.1/op_apple_universal_v2.31.1.pkg": "07bd5aa50d893f2c951e16af33388a36d2cdb3e59f08375412dbdfc0616413e6",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.31.1/op_linux_amd64_v2.31.1.zip": "2e98f0df5977f57bcb2f3e8835e2837660ee4915456ee8ed124e0588a429a5c9",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.31.1/op_linux_arm64_v2.31.1.zip": "87292a7c0546e181526b4f362720a76f9e46bbb6cc24addd44b7573541dd9ab8",
 }
