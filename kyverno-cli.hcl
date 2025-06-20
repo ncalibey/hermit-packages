@@ -17,7 +17,8 @@ platform "linux" "amd64" {
 }
 
 version "1.11.4" "1.12.0" "1.12.1" "1.11.5" "1.12.2" "1.12.3" "1.12.4" "1.12.5"
-        "1.12.6" "1.13.0" "1.13.1" "1.13.2" "1.12.7" "1.13.3" "1.13.4" "1.14.0" "1.14.1" {
+        "1.12.6" "1.13.0" "1.13.1" "1.13.2" "1.12.7" "1.13.3" "1.13.4" "1.14.0" "1.14.1"
+        "1.14.3" {
   auto-version {
     github-release = "kyverno/kyverno"
   }
@@ -75,4 +76,7 @@ sha256sums = {
   "https://github.com/kyverno/kyverno/releases/download/v1.14.1/kyverno-cli_v1.14.1_darwin_x86_64.tar.gz": "fdd5ba7eb06de310c2d54fa8b6a1c9a6ebd047cdbc3844c00d74cfc88723afdc",
   "https://github.com/kyverno/kyverno/releases/download/v1.14.1/kyverno-cli_v1.14.1_linux_x86_64.tar.gz": "b4052be8e8022b028925bfcec41daa8c111e16dd54f0cfe36e71cc3ee51f93d9",
   "https://github.com/kyverno/kyverno/releases/download/v1.14.1/kyverno-cli_v1.14.1_linux_arm64.tar.gz": "4639bd42ff5e0b5e9cbe3fad705ab73041657e210c3557a37f925e7802804540",
+  "https://github.com/kyverno/kyverno/releases/download/v1.14.3/kyverno-cli_v1.14.3_linux_x86_64.tar.gz": "d2cd4a9c8700d831b0c99ea2ea872f6394c43957d4bfa2f19d1fa47ee6ff3f6c",
+  "https://github.com/kyverno/kyverno/releases/download/v1.14.3/kyverno-cli_v1.14.3_linux_arm64.tar.gz": "3aeed710ce65d610b02c5ed7621404f927fedd2ae7034f6ca1d4180a968e36c8",
+  "https://github.com/kyverno/kyverno/releases/download/v1.14.3/kyverno-cli_v1.14.3_darwin_x86_64.tar.gz": "7be7875dbf6b3f7150bcfb181adfc9617fbf38fea49b753eebbea52f2006aaec",
 }
