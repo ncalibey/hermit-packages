@@ -9,7 +9,7 @@ platform "amd64" {
 }
 
 version "0.7.1" "0.8.0" "0.9.0" "0.10.0" "0.11.0" "0.12.0" "0.12.1" "0.13.0" "0.14.0"
-        "0.15.0" "0.16.0" "0.17.0" {
+        "0.15.0" "0.16.0" "0.17.0" "0.17.2" {
   auto-version {
     github-release = "google/yamlfmt"
   }
@@ -64,4 +64,8 @@ sha256sums = {
   "https://github.com/google/yamlfmt/releases/download/v0.10.0/yamlfmt_0.10.0_linux_arm64.tar.gz": "9d54fd936ee6d5919a04190da0465cdf8bdd0bc031cb29832d689298fe027eaa",
   "https://github.com/google/yamlfmt/releases/download/v0.11.0/yamlfmt_0.11.0_linux_arm64.tar.gz": "76da015f98e34f29216eab8b6155e419c0a2b623c466e997299ad5c225207992",
   "https://github.com/google/yamlfmt/releases/download/v0.17.0/yamlfmt_0.17.0_linux_arm64.tar.gz": "ebe78a5547dac68f05a01c9a2845901b3c658095432b107bef3084dfe0b2629d",
+  "https://github.com/google/yamlfmt/releases/download/v0.17.2/yamlfmt_0.17.2_darwin_x86_64.tar.gz": "e806fe1013e601788e762dc7e54858b0bb4bdc828c5b4c95125db67cd997ac30",
+  "https://github.com/google/yamlfmt/releases/download/v0.17.2/yamlfmt_0.17.2_darwin_arm64.tar.gz": "94bd3fb3a2c66bdab77b58cd91bece9e4a8a28a33cb4e0fe241e6220548f69dd",
+  "https://github.com/google/yamlfmt/releases/download/v0.17.2/yamlfmt_0.17.2_linux_x86_64.tar.gz": "b114115b6804cfd203195d222558e4feb38e311fffb590c4e13642fa21bd0e37",
+  "https://github.com/google/yamlfmt/releases/download/v0.17.2/yamlfmt_0.17.2_linux_arm64.tar.gz": "1785b9751af9dca10a8a3e51ee2f6f3aa64564610dcc994d98421e28d02b56b5",
 }
