@@ -4,7 +4,7 @@ source = "https://github.com/civo/cli/releases/download/v${version}/civo-${versi
 test = "civo --version"
 
 version "1.1.92" "1.1.93" "1.1.95" "1.1.97" "1.1.99" "1.2.0" "1.2.2" "1.2.3" "1.3.0"
-        "1.4.0" "1.4.1" {
+        "1.4.0" "1.4.1" "1.4.3" {
   auto-version {
     github-release = "civo/cli"
   }
@@ -55,4 +55,8 @@ sha256sums = {
   "https://github.com/civo/cli/releases/download/v1.4.1/civo-1.4.1-linux-arm64.tar.gz": "0db46124c1d8b0146c45abc650414ff9dc7c5e9a270e549706a4dddf5bcd668c",
   "https://github.com/civo/cli/releases/download/v1.4.1/civo-1.4.1-darwin-amd64.tar.gz": "ceabddd7e3645e28f8c6fa9b5de699d0e3d61f605ead458305ade8f4fc310b58",
   "https://github.com/civo/cli/releases/download/v1.4.1/civo-1.4.1-darwin-arm64.tar.gz": "98a6b16716162484b0ff85e9748bbf8689af860ec647fbe3f11716ad7125a5c9",
+  "https://github.com/civo/cli/releases/download/v1.4.3/civo-1.4.3-darwin-arm64.tar.gz": "a31f86c4a4dc91776dd783bb11f38d973720dbd59e04d8ea039333cb63d91b5c",
+  "https://github.com/civo/cli/releases/download/v1.4.3/civo-1.4.3-linux-arm64.tar.gz": "bb817dd5d48e30f222b47acf6db7d43dc9cd0f42da25e6d5c8f17b7ea6bb3dc5",
+  "https://github.com/civo/cli/releases/download/v1.4.3/civo-1.4.3-darwin-amd64.tar.gz": "444534b2caacad7aa6023c33b66082adf0469892544f02974d0dde0d2d8470a5",
+  "https://github.com/civo/cli/releases/download/v1.4.3/civo-1.4.3-linux-amd64.tar.gz": "1ed58978f7b63888932173c30fe731f5c43d7dc1eb8a84302e96941edf2bfd66",
 }
