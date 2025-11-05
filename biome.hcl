@@ -28,7 +28,7 @@ version "1.6.3" "1.6.4" "1.7.0" "1.7.1" "1.7.2" "1.7.3" "1.7.4-nightly.125f34b"
 }
 
 version "2.0.4" "2.0.5" "2.0.6" "2.1.0" "2.1.1" "2.1.2" "2.1.3" "2.1.4" "2.2.0" "2.2.2"
-        "2.2.3" "2.2.4" "2.2.5" "2.2.6" "2.3.1" {
+        "2.2.3" "2.2.4" "2.2.5" "2.2.6" "2.3.1" "2.3.3" {
   auto-version {
     github-release = "biomejs/biome"
     version-pattern = "^@biomejs/biome@(.*)"
@@ -199,4 +199,8 @@ sha256sums = {
   "https://github.com/biomejs/biome/releases/download/%40biomejs/biome%402.3.1/biome-darwin-x64": "11da72a1aa053ebec4b5892da9415a742b881081433769996ebab9b509b5a761",
   "https://github.com/biomejs/biome/releases/download/%40biomejs/biome%402.3.1/biome-darwin-arm64": "ac7458ef211047b5acb397364c397b554ee5385863a67a2cc8a66e75d068913e",
   "https://github.com/biomejs/biome/releases/download/%40biomejs/biome%402.3.1/biome-linux-x64": "ce2efe7aa1205b6935161787bdda1ebfc35a8b030ca7c5c7010a80f15904fb3a",
+  "https://github.com/biomejs/biome/releases/download/%40biomejs/biome%402.3.3/biome-darwin-arm64": "105837c323a97211c0a69b0ce03ad7cad575dfb9ca43838d83c418a47fcfcb55",
+  "https://github.com/biomejs/biome/releases/download/%40biomejs/biome%402.3.3/biome-linux-x64": "af3a2cf51e34d6faaf2d3ebf7370d92ed115e01d2d5d517b3137408eb81bff68",
+  "https://github.com/biomejs/biome/releases/download/%40biomejs/biome%402.3.3/biome-linux-arm64": "f504ff913dfb1baf9f3f8ab7742dee5b308460258b528f06dfbe0806e0bf7b3f",
+  "https://github.com/biomejs/biome/releases/download/%40biomejs/biome%402.3.3/biome-darwin-x64": "0b95c3acd7147001829d7a9b658b6fd83a0d8adc0f3eb52b9e63040f4bec06c9",
 }
