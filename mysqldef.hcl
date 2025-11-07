@@ -19,7 +19,7 @@ version "0.15.22" "0.15.23" "0.15.24" "0.15.25" "0.15.26" "0.15.27" "0.16.0" "0.
         "1.0.1" "1.0.3" "1.0.4" "1.0.5" "1.0.6" "1.0.7" "2.0.0" "2.0.2" "2.0.3" "2.0.4" "2.0.5"
         "2.0.6" "2.0.7" "2.0.8" "2.0.9" "2.0.10" "2.0.11" "2.1.0" "2.3.0" "2.4.1" "2.4.2"
         "2.4.4" "2.4.6" "2.4.7" "3.0.1" "3.1.0" "3.1.5" "3.1.8" "3.1.10" "3.1.13" "3.1.15"
-        "3.2.1" "3.2.2" "3.3.0" "3.4.0" "3.5.0" {
+        "3.2.1" "3.2.2" "3.3.0" "3.4.0" "3.5.0" "3.6.0" {
   auto-version {
     github-release = "sqldef/sqldef"
   }
@@ -374,4 +374,8 @@ sha256sums = {
   "https://github.com/sqldef/sqldef/releases/download/v3.5.0/mysqldef_darwin_arm64.zip": "21d91330cf8358ce93fe950718a3c582e283a2e0e27de6aa220415c7cfc49649",
   "https://github.com/sqldef/sqldef/releases/download/v3.5.0/mysqldef_darwin_amd64.zip": "380d8843b505c6dc35db6736b55481a4f1437fce82b3d5e960c60bce7931c36c",
   "https://github.com/sqldef/sqldef/releases/download/v3.5.0/mysqldef_linux_arm64.tar.gz": "785bb71233379843e795dfff3299d6003281036f921322ccc94de253113fce87",
+  "https://github.com/sqldef/sqldef/releases/download/v3.6.0/mysqldef_darwin_arm64.zip": "ce8d5aac1bbc54a967b0b5038dbe23e8e16c2aff2b8466d71c97e88ab950b517",
+  "https://github.com/sqldef/sqldef/releases/download/v3.6.0/mysqldef_darwin_amd64.zip": "da327873b8e1f818ca321950a0646e3cc8609807c056c922f4f0208873226a3e",
+  "https://github.com/sqldef/sqldef/releases/download/v3.6.0/mysqldef_linux_arm64.tar.gz": "d26baf8d840add890e65fa0430ccb94e5a06ffac6f5aefc4c09d94fcb83dd6d2",
+  "https://github.com/sqldef/sqldef/releases/download/v3.6.0/mysqldef_linux_amd64.tar.gz": "6815a6877d899d7bfa7aefca90a4cb70859468c9cc9962bf573a05a73e95484f",
 }
