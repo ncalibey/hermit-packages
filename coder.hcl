@@ -14,7 +14,7 @@ description = "Secure environments for developers and their agents"
 homepage = "https://coder.com"
 
 version "2.24.2" "2.23.4" "2.24.3" "2.25.1" "2.25.2" "2.25.3" "2.26.1" "2.26.2"
-        "2.27.3" "2.27.6" "2.27.7" "2.28.6" "2.28.8" "2.28.9" {
+        "2.27.3" "2.27.6" "2.27.7" "2.28.6" "2.28.8" "2.28.9" "2.29.6" {
   auto-version {
     github-release = "coder/coder"
   }
@@ -77,4 +77,8 @@ sha256sums = {
   "https://github.com/coder/coder/releases/download/v2.28.9/coder_2.28.9_linux_amd64.tar.gz": "e6cc1142a52639170bc06a0de3ecec08d3ae5bf4c972cde7984ea2f4708cde71",
   "https://github.com/coder/coder/releases/download/v2.28.9/coder_2.28.9_darwin_amd64.zip": "272fcc91967f64c957f478702f4c7f0741af9758d7c36ae0172a0b514c85c7ba",
   "https://github.com/coder/coder/releases/download/v2.28.9/coder_2.28.9_linux_arm64.tar.gz": "92cea98ac5dd01809dfc7f35f60cf72c67f3e9472c3b7c3ea48c762f65b3a267",
+  "https://github.com/coder/coder/releases/download/v2.29.6/coder_2.29.6_linux_amd64.tar.gz": "03312fd626932975ef22c280705c7b906cee3446e5f7ed481577b2e285b90128",
+  "https://github.com/coder/coder/releases/download/v2.29.6/coder_2.29.6_darwin_amd64.zip": "64a304d7fe88edbe143ddf33c21eb19bf95d4f419551b0cf7ea0ca82524e1749",
+  "https://github.com/coder/coder/releases/download/v2.29.6/coder_2.29.6_linux_arm64.tar.gz": "a45cefbdcc79b253a4d1fd316c69010cbcc7b5c4c957980efe3ff8b6246b912f",
+  "https://github.com/coder/coder/releases/download/v2.29.6/coder_2.29.6_darwin_arm64.zip": "703860af167cd89f5a0cf141d996c8cf99f1d68fb717d1f3ba359db896ad4c1f",
 }
