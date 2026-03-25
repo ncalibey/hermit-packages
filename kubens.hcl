@@ -2,7 +2,7 @@ description = "kubens is a utility to switch between Kubernetes namespaces."
 binaries = ["kubens"]
 test = "kubens --help"
 
-version "0.9.4" "0.9.5" {
+version "0.9.4" "0.9.5" "0.10.2" {
   auto-version {
     github-release = "ahmetb/kubectx"
   }
@@ -21,4 +21,6 @@ sha256sums = {
   "https://github.com/ahmetb/kubectx/releases/download/v0.9.4/kubens_v0.9.4_darwin_x86_64.tar.gz": "ef43ab1217e09ac1b929d4b9dd2c22cbb10540ef277a3a9b484c020820c988b1",
   "https://github.com/ahmetb/kubectx/releases/download/v0.9.5/kubens_v0.9.5_linux_x86_64.tar.gz": "acc1a9c7f6b722fbe5fad25dd0e784a7335d18436b9c414ab996629e82702cba",
   "https://github.com/ahmetb/kubectx/releases/download/v0.9.5/kubens_v0.9.5_darwin_x86_64.tar.gz": "5b33298bf03a5ff18ccf11f5e2c11e519f43734b716365865ee5afbdf30a3286",
+  "https://github.com/ahmetb/kubectx/releases/download/v0.10.2/kubens_v0.10.2_darwin_x86_64.tar.gz": "d3f82bc9105412e696791434934ea994fc4b93b94463a9b918376bcd60bdb822",
+  "https://github.com/ahmetb/kubectx/releases/download/v0.10.2/kubens_v0.10.2_linux_x86_64.tar.gz": "1cc96c6a6b1f7fb0b36964b92e5953d1f79b0bcbe6e998a800ce84ed82fe9aca",
 }
