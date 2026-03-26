@@ -40,7 +40,7 @@ platform "windows" {
   }
 }
 
-version "3.11.2" "3.12.0" "3.13.0" "3.13.1" {
+version "3.11.2" "3.12.0" "3.13.0" "3.13.1" "3.14.1" {
   auto-version {
     github-release = "errata-ai/vale"
   }
@@ -63,4 +63,8 @@ sha256sums = {
   "https://github.com/errata-ai/vale/releases/download/v3.13.1/vale_3.13.1_Linux_arm64.tar.gz": "bf732cb7cd1942e007ff1c24e652dff852c58e6ca467312d5955c74469d4fc70",
   "https://github.com/errata-ai/vale/releases/download/v3.13.1/vale_3.13.1_macOS_64-bit.tar.gz": "bbc3a94f3e6640b8a8d6e349142cbe3d0f597e6a673fcad5de4ae9dc88e5c7e1",
   "https://github.com/errata-ai/vale/releases/download/v3.13.1/vale_3.13.1_macOS_arm64.tar.gz": "b614dfde6324eec403ac540cbcd47132960f8ebe9c21ef0e2352da9b19808689",
+  "https://github.com/errata-ai/vale/releases/download/v3.14.1/vale_3.14.1_macOS_arm64.tar.gz": "1a4a0923f59b293d691bd901300cc4da50a6bbfd962503239b5efe9563e0bd8e",
+  "https://github.com/errata-ai/vale/releases/download/v3.14.1/vale_3.14.1_Linux_64-bit.tar.gz": "ff2b49ffaa9dcd246fd5008f03ff67746d2790b75bf4d3657e2fb9530fb96db3",
+  "https://github.com/errata-ai/vale/releases/download/v3.14.1/vale_3.14.1_macOS_64-bit.tar.gz": "98970ca11179b3166d7d7a10119d10121784cf6d4c40397ee065cbc1651d51d6",
+  "https://github.com/errata-ai/vale/releases/download/v3.14.1/vale_3.14.1_Linux_arm64.tar.gz": "6a442a4ff1e67ff0beb08b608b039a38ab1f5bd6170afef903130a63831d1b2b",
 }
