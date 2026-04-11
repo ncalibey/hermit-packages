@@ -87,7 +87,7 @@ version "20.0.0" "20.1.0" "20.2.0" "20.3.0" "20.3.1" "20.4.0" "20.5.0" "20.5.1"
         "20.6.0" "20.6.1" "20.7.0" "20.8.0" "20.8.1" "20.9.0" "20.10.0" "20.11.0" "20.11.1"
         "20.12.0" "20.12.1" "20.12.2" "20.13.0" "20.13.1" "20.14.0" "20.15.0" "20.15.1"
         "20.16.0" "20.17.0" "20.18.0" "20.18.1" "20.18.2" "20.18.3" "20.19.0" "20.19.1"
-        "20.19.2" "20.19.3" "20.19.4" "20.19.5" "20.19.6" "20.20.0" "20.20.1" {
+        "20.19.2" "20.19.3" "20.19.4" "20.19.5" "20.19.6" "20.20.0" "20.20.1" "20.20.2" {
   auto-version {
     github-release = "nodejs/node"
     ignore-invalid-versions = true
@@ -107,7 +107,7 @@ version "21.0.0" "21.1.0" "21.2.0" "21.3.0" "21.4.0" "21.5.0" "21.6.0" "21.6.1"
 version "22.0.0" "22.1.0" "22.2.0" "22.3.0" "22.4.0" "22.4.1" "22.5.0" "22.5.1"
         "22.6.0" "22.7.0" "22.8.0" "22.9.0" "22.10.0" "22.11.0" "22.12.0" "22.13.0" "22.13.1"
         "22.14.0" "22.15.0" "22.15.1" "22.16.0" "22.17.0" "22.17.1" "22.18.0" "22.19.0"
-        "22.20.0" "22.21.1" "22.22.0" "22.22.1" {
+        "22.20.0" "22.21.1" "22.22.0" "22.22.1" "22.22.2" {
   auto-version {
     github-release = "nodejs/node"
     ignore-invalid-versions = true
@@ -857,4 +857,12 @@ sha256sums = {
   "https://nodejs.org/dist/v22.22.1/node-v22.22.1-darwin-arm64.tar.gz": "679ad4966339e4ef4900f57996714864e4211b898825bb840c3086c419fbcef2",
   "https://nodejs.org/dist/v22.22.1/node-v22.22.1-darwin-x64.tar.gz": "07b13722d558790fca20bb1ecf61bde24b7a4863111f7be77fc57251a407359a",
   "https://nodejs.org/dist/v22.22.1/node-v22.22.1-linux-arm64.tar.gz": "1d1690e9aba47e887a275abc6d8f7317e571a0700deaef493f768377e99155f5",
+  "https://nodejs.org/dist/v20.20.2/node-v20.20.2-linux-arm64.tar.gz": "47ef73d543ecf6eb19435f6c03a0ac4809b3bf0dd6b26c7c571efc2a6572a74d",
+  "https://nodejs.org/dist/v20.20.2/node-v20.20.2-darwin-arm64.tar.gz": "466e05f3477c20dfb723054dfebffe55bc74660ee77f612166fca121dacb65b6",
+  "https://nodejs.org/dist/v20.20.2/node-v20.20.2-darwin-x64.tar.gz": "8be6f5e4bb128c82774f8a0b8d7a1cc1365a7977d9657cece0ca647b3fe04e61",
+  "https://nodejs.org/dist/v20.20.2/node-v20.20.2-linux-x64.tar.gz": "19e56f0825510207dd904f087fe52faa0a4eb6b2aab5f0ea7a33830d04888b8b",
+  "https://nodejs.org/dist/v22.22.2/node-v22.22.2-linux-x64.tar.gz": "978978a635eef872fa68beae09f0aad0bbbae6757e444da80b570964a97e62a3",
+  "https://nodejs.org/dist/v22.22.2/node-v22.22.2-linux-arm64.tar.gz": "b2f3a96f31486bfc365192ad65ced14833ad2a3c2e1bcefec4846902f264fa28",
+  "https://nodejs.org/dist/v22.22.2/node-v22.22.2-darwin-arm64.tar.gz": "db4b275b83736df67533529a18cc55de2549a8329ace6c7bcc68f8d22d3c9000",
+  "https://nodejs.org/dist/v22.22.2/node-v22.22.2-darwin-x64.tar.gz": "12a6abb9c2902cf48a21120da13f87fde1ed1b71a13330712949e8db818708ba",
 }
