@@ -5,7 +5,7 @@ requires = ["erlang"]
 source = "https://github.com/elixir-lang/elixir/releases/download/v${version}/elixir-otp-27.zip"
 test = "elixir --version"
 
-version "1.18.3" "1.18.4" "1.19.3" "1.19.4" "1.19.5" {
+version "1.18.3" "1.18.4" "1.19.3" "1.19.4" "1.19.5" "1.20.0" {
   runtime-dependencies = ["erlang-27.2.2"]
 
   auto-version {
