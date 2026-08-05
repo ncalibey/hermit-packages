@@ -15,7 +15,7 @@ version "0.6.85" "0.6.86" "0.6.87" "0.6.88" "0.6.91" "0.6.92" "0.6.93" "0.6.94"
         "0.6.95" "0.6.96" "0.6.97" "0.6.98" "0.6.99" "0.6.100" "0.6.101" "0.6.102" "0.6.103"
         "0.6.104" "0.6.105" "0.6.106" "0.6.108" "0.6.109" "0.6.111" "0.6.112" "0.6.114"
         "0.6.115" "0.6.116" "0.6.117" "0.6.118" "0.6.119" "0.6.120" "0.6.121" "0.6.123"
-        "0.6.126" "0.6.139" "0.6.141" "0.6.145" "0.6.146" {
+        "0.6.126" "0.6.139" "0.6.141" "0.6.145" "0.6.146" "0.6.148" {
   auto-version {
     github-release = "diggerhq/digger"
   }
@@ -174,4 +174,8 @@ sha256sums = {
   "https://github.com/diggerhq/digger/releases/download/v0.6.146/dgctl-linux-amd64": "95c469f59be3e20c317929e031338872570a72acabc653d356b1e3b7465cede8",
   "https://github.com/diggerhq/digger/releases/download/v0.6.146/dgctl-darwin-amd64": "cb956615334b13249e6b850e804f750debb8aae317f239dddc6f46411ec0b79d",
   "https://github.com/diggerhq/digger/releases/download/v0.6.146/dgctl-darwin-arm64": "cf07598eab117f2a14e936ebb8a8b5f1f55d7c384df7acdeca4960587114d666",
+  "https://github.com/diggerhq/digger/releases/download/v0.6.148/dgctl-linux-arm64": "2917b117b991d8c545f954007465416725bfc117878597782105cce333a813bb",
+  "https://github.com/diggerhq/digger/releases/download/v0.6.148/dgctl-darwin-arm64": "423454c9b72182ca4112ba7408f4adda440daec7708f3cb5c4a5b7aa7fd86e34",
+  "https://github.com/diggerhq/digger/releases/download/v0.6.148/dgctl-darwin-amd64": "abf01005a291844e06928be8ebba8f7c35a35fb29cd151068f9486c78a73b3e1",
+  "https://github.com/diggerhq/digger/releases/download/v0.6.148/dgctl-linux-amd64": "c2618e796bb010478546859e14aedd6c16535a333151ca400899d29433c69968",
 }
