@@ -26,7 +26,7 @@ version "2.72.2" "2.73.2" "2.73.3" "2.74.0" "2.74.1" "2.75.0" "2.75.1" "2.76.0"
         "2.76.1" "2.77.0" "2.78.0" "2.78.1" "2.78.2" "2.78.3" "2.78.5" "2.78.6" "2.78.7"
         "2.78.8" "2.78.9" "2.79.2" "2.80.0" "2.81.0" "2.82.0" "2.85.0" "2.87.0" "2.88.0"
         "2.90.0" "2.91.0" "2.93.0" "2.96.0" "2.98.0" "2.100.0" "2.101.0" "2.103.0" "2.104.1"
-        "2.105.0" "2.108.0" "2.112.0" "2.113.0" "2.116.0" "2.119.0" "2.120.0" {
+        "2.105.0" "2.108.0" "2.112.0" "2.113.0" "2.116.0" "2.119.0" "2.120.0" "2.121.0" {
   auto-version {
     github-release = "jfrog/jfrog-cli"
   }
@@ -201,4 +201,8 @@ sha256sums = {
   "https://releases.jfrog.io/artifactory/jfrog-cli/v2-jf/2.120.0/jfrog-cli-mac-arm64/jf": "794d46c200cd1906b067151a159b8f5c8066cc9aacaf6e1330b178ee58fb581c",
   "https://releases.jfrog.io/artifactory/jfrog-cli/v2-jf/2.120.0/jfrog-cli-linux-386/jf": "3375afc17ae6576627d4196acd7dbee724797b38124de7da6d9ecb36fb617f4d",
   "https://releases.jfrog.io/artifactory/jfrog-cli/v2-jf/2.120.0/jfrog-cli-linux-arm64/jf": "7ff002f099c611d2d2c90353275a417fe1254490f1bd63f13ab24aaff5452b5c",
+  "https://releases.jfrog.io/artifactory/jfrog-cli/v2-jf/2.121.0/jfrog-cli-linux-arm64/jf": "1858ad5e2acfcaecb5da5b5f623cd667b85cce33b59181d60384dc5f42908351",
+  "https://releases.jfrog.io/artifactory/jfrog-cli/v2-jf/2.121.0/jfrog-cli-linux-386/jf": "2131808507218c6eb48acf36b2fcea4645b37547af7083b375da4ecfc532f989",
+  "https://releases.jfrog.io/artifactory/jfrog-cli/v2-jf/2.121.0/jfrog-cli-mac-386/jf": "a7e966b2974233f6843179baeb249f0e8cd767aee28bf2ad55d5e6f1cb920fec",
+  "https://releases.jfrog.io/artifactory/jfrog-cli/v2-jf/2.121.0/jfrog-cli-mac-arm64/jf": "a48984a9d43227678e55e9e1c9b312a954d04910be75158e4adee021a539ebaa",
 }
