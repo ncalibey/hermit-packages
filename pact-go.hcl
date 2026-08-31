@@ -4,7 +4,7 @@ binaries = ["pact-go"]
 source = "https://github.com/pact-foundation/pact-go/releases/download/v${version}/pact-go_${version}_${os}_${arch}.tar.gz"
 test = "pact-go version"
 
-version "2.0.8" "2.1.0" "2.2.0" "2.3.0" "2.4.1" "2.4.2" "2.4.3" "2.5.1" "2.6.0" {
+version "2.0.8" "2.1.0" "2.2.0" "2.3.0" "2.4.1" "2.4.2" "2.4.3" "2.5.1" "2.6.0" "2.7.1" {
   auto-version {
     github-release = "pact-foundation/pact-go"
   }
@@ -47,4 +47,8 @@ sha256sums = {
   "https://github.com/pact-foundation/pact-go/releases/download/v2.6.0/pact-go_2.6.0_darwin_arm64.tar.gz": "6a0ae0d823eccbd0bbd39eaea42d56c59b8e56c364ed9f5ddf521640d24cec88",
   "https://github.com/pact-foundation/pact-go/releases/download/v2.6.0/pact-go_2.6.0_linux_arm64.tar.gz": "d31476d12936eaef432d046a26d1e238e96d5c0c33577c32d27bad9434b7a620",
   "https://github.com/pact-foundation/pact-go/releases/download/v2.6.0/pact-go_2.6.0_darwin_amd64.tar.gz": "005af1b08cb80c987a9aeff98033ec37f0df0fae09d607cdbf4e1d6cc0b66f39",
+  "https://github.com/pact-foundation/pact-go/releases/download/v2.7.1/pact-go_2.7.1_linux_amd64.tar.gz": "c9ae2abab935bb7913db60f73439b20063409aa552f154a0aa8597f45e23a14c",
+  "https://github.com/pact-foundation/pact-go/releases/download/v2.7.1/pact-go_2.7.1_darwin_amd64.tar.gz": "36310edbd24ee5232a425bfeda128666dfc1419e52d96600289b13ebacf87146",
+  "https://github.com/pact-foundation/pact-go/releases/download/v2.7.1/pact-go_2.7.1_darwin_arm64.tar.gz": "904ff111af5461964a5ff04e2938a508d571cf3bfd23d13c714f157ea8ff68c1",
+  "https://github.com/pact-foundation/pact-go/releases/download/v2.7.1/pact-go_2.7.1_linux_arm64.tar.gz": "ca3966017ed257d8c435146f2ad8f740009bf3e689cdd49745a0ce19b86efa17",
 }
