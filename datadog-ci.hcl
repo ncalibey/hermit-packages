@@ -35,7 +35,7 @@ version "2.12.0" "2.13.0" "2.14.0" "2.15.0" "2.16.0" "2.16.1" "2.17.0" "2.17.1"
         "3.15.0" "3.16.0" "3.17.0" "3.18.0" "3.19.0" "3.20.0" "3.21.4" "3.22.2" "4.0.2" "4.1.1"
         "4.1.2" "4.1.3" "4.2.0" "4.2.2" "4.3.0" "4.4.0" "5.1.0" "5.2.1" "5.6.0" "5.7.0" "5.8.0"
         "5.9.0" "5.9.1" "5.10.0" "5.13.1" "5.16.0" "5.17.0" "5.20.1" "5.21.0" "5.24.1"
-        "5.25.0" {
+        "5.25.0" "5.26.0" {
   auto-version {
     github-release = "DataDog/datadog-ci"
   }
@@ -250,4 +250,6 @@ sha256sums = {
   "https://github.com/DataDog/datadog-ci/releases/download/v5.24.1/datadog-ci_linux-x64": "178ebf29f0a4d161e382dc197a14be0970e2306b6516f6729e741c224fe47fd2",
   "https://github.com/DataDog/datadog-ci/releases/download/v5.25.0/datadog-ci_linux-x64": "6c94be659ef8acf8d5175cca28092f27af6842bad11d2d1e84ec9d3de54f4a8f",
   "https://github.com/DataDog/datadog-ci/releases/download/v5.25.0/datadog-ci_darwin-x64": "91d8866fe46852bd309bc32be819abb4869760f7ecfd16d71bdf393c87b49b17",
+  "https://github.com/DataDog/datadog-ci/releases/download/v5.26.0/datadog-ci_darwin-x64": "da08d7033be17b1ac0f6cf2dadd9612242a7a8a2ced34c45ab68e66404991665",
+  "https://github.com/DataDog/datadog-ci/releases/download/v5.26.0/datadog-ci_linux-x64": "852ba0ac0e5601319995964804be90e98fdbf306f5dd7a49fb5ce20540acb9a7",
 }
