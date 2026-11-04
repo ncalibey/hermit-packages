@@ -11,7 +11,7 @@ platform "darwin" {
 
 version "2.12.0" "2.13.0" "2.14.0" "2.15.0" "2.16.0" "2.17.0" "2.18.0" "2.19.2"
         "2.20.1" "2.21.0" "2.22.0" "2.23.0" "2.24.0" "2.25.0" "2.26.0" "2.27.0" "2.28.0"
-        "2.30.0" "2.31.1" "2.32.0" "2.33.1" "2.34.0" "2.35.0" {
+        "2.30.0" "2.31.1" "2.32.0" "2.33.1" "2.34.0" "2.35.0" "2.37.2" {
   auto-version {
     github-release = "binwiederhier/ntfy"
   }
@@ -87,4 +87,7 @@ sha256sums = {
   "https://github.com/binwiederhier/ntfy/releases/download/v2.35.0/ntfy_2.35.0_darwin_all.tar.gz": "bc7cd87e204658c7ff53ed76b47e3a996e82dbefd33d249103c1947a73349a35",
   "https://github.com/binwiederhier/ntfy/releases/download/v2.35.0/ntfy_2.35.0_linux_amd64.tar.gz": "da694a751d8c1681a39bd45682631837508dfd5721ad6226768617fac181a9bc",
   "https://github.com/binwiederhier/ntfy/releases/download/v2.35.0/ntfy_2.35.0_linux_arm64.tar.gz": "c0dd07b61c42d28ce9b710750d9f6920041146f517f29da5ed4c00a1892062b3",
+  "https://github.com/binwiederhier/ntfy/releases/download/v2.37.2/ntfy_2.37.2_linux_amd64.tar.gz": "e67f53d7fbed529b83faf3993b584110921ef3567b0ac0b033c6910879a4ffd1",
+  "https://github.com/binwiederhier/ntfy/releases/download/v2.37.2/ntfy_2.37.2_darwin_all.tar.gz": "b60a9729651e9d7defae3bb8f955822370e0fb84c1a73cc1d9ab5088b2712241",
+  "https://github.com/binwiederhier/ntfy/releases/download/v2.37.2/ntfy_2.37.2_linux_arm64.tar.gz": "d440e696755f2032592ba6456995f7a9f04b8c47d288d2e3d2cffbc3d53831f6",
 }
